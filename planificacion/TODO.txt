@@ -1,0 +1,54 @@
+ En data php dejo el id asignado a $id y debo integrarlo de forma foranea a la database de cursos.
+ para traerlo en pantalla a la pagina principal.
+ Si es necesario debo integrar ese dicho id a la tabla programacion o base de datos para integrar mas informacion
+ a los cursos ya creados.
+ La idea es traer los cursos ya creados a la pagina principal.
+ En forma de miniatura.
+
+
+
+
+ // COSAS A CORREGIR.
+
+
+ - Eliminar Sessions innecesarias y enviarlas por header. -O en su defecto por el mismo formularion en action="";
+ - Nombres de variables que sean faciles de asociar ( sin mezclas en ingles-español  y continuidad logica)
+
+
+ // Reestructurar la app segun mapa hecho a mano.
+
+ index.html
+ sus opciones, que datos envia, yt que datos recibe la pagina por post.
+ que datos recibe la pagina y como se validan los siguientes datos.
+ Importante : Explicar en cada archivo que hace cada .php  <<< hecho
+ Importante : Luego de iniciar sesion, comprobar en cada documento que este la sesion inciada sino enviar<< hecho
+ por header() a index.html. <<<< hecho
+ Para hacer eso utilizar [ if(!isset($_SESSION['mail'] ))] <<< hecho
+ 
+
+
+  correcciones.
+
+ index.php   << corregido.
+ validar_datos.php << corregido.
+ registrarse.php << corregido.
+ docente.php << corregido.
+ cerrar_sesion.php << corregido.
+ alumno.php << Aun no hace nada. <<<
+ alta_curso.php << corregido
+ alta_curso.php2 << corregido
+ alta_curso.php3 << corregido
+ alta_curso.php4 << corregido
+ alta_curso.php5 << corregido
+
+
+
+// CREAR EL ACCESO a administrador, sus funciones etc. //
+
+
+
+// ABSTRAer las funciones.
+
+
+
+
